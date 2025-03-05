@@ -1,0 +1,192 @@
+/* @font-face {
+  font-family: 'NotoSans_online_security';
+  src: url(chrome-extension://11bcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-reqular.woff);
+}
+@font-face {
+  font-family: 'NotoSans_medium_online_security';
+  src: url(chrome-extension://11bcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-medium.ttf)
+}@font-face {
+  font-family: 'NotoSans_bold_online_security';
+  src: url(chrome-extension://11bcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-bold.ttf)
+}
+@font-face {
+  font-family: 'NotoSans_semibold_online_security';
+  src: url(chrome-extension://11bcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-semibold.ttf)
+} */
+
+html {
+    font-size: 10px;
+    display: block;
+  }
+  
+  :root {
+    view-transition-name: root;
+  }
+  
+  head {
+    display: none;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  style {
+    display: none;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    borde-radius: 5px;
+    background: #eee;
+  }
+  
+  main {
+    display: block;
+    unicode-bidi: isolate;
+  }
+  
+  h1 {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-bottom: 0;
+  }
+  
+  p {
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    unicode-bidi: isolate;
+  }
+  
+  figure {
+      display: block;
+      /* margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 40px;
+      margin-inline-end: 40px; */
+      unicode-bidi: isolate;
+  }
+  
+  #img-div {
+      background: white;
+      padding: 10px;
+      margin: 0;
+  }
+  
+  img {
+      border-radius: 180px;
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  
+  #img-caption {
+      margin: 15px 0 5px 0;
+  }
+  
+  figcaption {
+      display: block;
+      unicode-bidi: isolate;
+  }
+  
+  section {
+      display: block;
+      unicode-bidi: isolate;
+  }
+  
+  #headline {
+      margin: 50px 0;
+      text-align: center;
+  }
+  
+  h3 {
+      display: block;
+      /* font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px; */
+      font-weight: bold;
+      unicode-bidi: isolate;
+  }
+  
+  ul {
+      max-width: 550px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 1.6;
+      display: block;
+      list-style-type: disc;
+      /* margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px; */
+      padding-inline-start: 40px;
+      unicode-bidi: isolate;
+  }
+  
+  ::marker, ::before::marker, ::after::marker {
+      unicode-bidi: isolate;
+      font-variant-numeric: tabular-nums;
+      text-transform: none;
+      text-indent: 0px !important;
+      text-align: start !important;
+      text-align-last: auto !important;
+  }
+  
+  li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+      unicode-bidi: isolate;
+      margin: 16px 0;
+  }
+  
+  strong {
+      font-weight: bold;
+  }
+  
+  blockquote {
+      font-style: italic;
+      max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      display: block;
+      /* margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 40px;
+      margin-inline-end: 40px; */
+      unicode-bidi: isolate;
+  }
+  
+  cite {
+      font-style: italic;
+  }
+  
+  a {
+      color: #477ca7;
+  }
+  
+  a:-webkit-any-link {
+      color: -webkit-link;
+      cursor: pointer;
+      text-decoration: underline;
+  }
